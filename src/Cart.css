@@ -1,0 +1,96 @@
+nav{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+    color: rgb(40, 134, 153);
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 15px #0ff;
+    transition: 0.3s;
+}
+button {
+    background-color: #4a90e2;       /* Синий цвет фона */
+    color: white;                    /* Цвет текста */
+    border: none;                    /* Без рамки */
+    padding: 12px 24px;              /* Отступы внутри */
+    font-size: 16px;                 /* Размер шрифта */
+    border-radius: 8px;              /* Скругление углов */
+    cursor: pointer;                 /* Курсор при наведении */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Тень */
+  }
+  
+  button:hover {
+    background-color: #357ABD;       /* Темнее при наведении */
+    transform: translateY(-2px);     /* Легкий подъем */
+  }
+  
+  button:active {
+    transform: translateY(0);        /* Возврат при нажатии */
+    background-color: #2d5f9a;       /* Еще темнее при клике */
+  }
+  .button{
+    padding: 5px 32px;   /* вертикаль x горизонталь */
+    font-size: 15px;
+  }
+  .button:hover {
+    color: #000000;
+    text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff;
+    
+}
+.Cartdiv {
+  background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+  color: #e0f7fa;
+  border-radius: 20px;
+  padding: 30px;
+  width: 90%;
+  max-width: 700px; /* больше места для карточек */
+  max-height: 80vh; /* чтобы не выходило за пределы экрана */
+  margin: 30px auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  overflow-y: auto; /* прокрутка при большом количестве товаров */
+}
+
+.Cartdiv h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #76e2f4;
+  text-shadow: 0 0 10px rgba(118, 226, 244, 0.7);
+}
+
+.Cartdiv p {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #b2ebf2;
+}
+
+.Cartdiv ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.Cartdiv li {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 15px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease-in-out;
+  text-align: left;
+}
+
+.Cartdiv li:hover {
+  transform: scale(1.02);
+}
+
+.Cartdiv h3 {
+  margin-top: 25px;
+  font-size: 22px;
+  color: #ffffff;
+}
